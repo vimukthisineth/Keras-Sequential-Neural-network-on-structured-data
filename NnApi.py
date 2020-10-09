@@ -9,6 +9,7 @@ df = pd.read_csv('dataset.csv')
 dataset = df.values
 
 # print(dataset)
+#seperate data as dependent Y and independent X
 
 X = dataset[:,0:5]
 Y = dataset[:,5]
